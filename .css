@@ -1,0 +1,16 @@
+.spicey {
+  float: left;
+}
+
+.crucial {
+  font-size: 42
+}
+
+.sidebar {
+  float: right;
+}
+
+.column {
+  width:300px;
+  float: left;
+}
