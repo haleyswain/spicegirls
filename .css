@@ -1,9 +1,12 @@
-.spicey {
+.spicey              {
   float: left;
 }
 
 .crucial {
-  font-size: 42
+  font-size: 42px;
+  margin: 20px;
+  border: 4px solid red;
+  padding: 12px;
 }
 
 .sidebar {
@@ -12,5 +15,33 @@
 
 .column {
   width:300px;
-  float: left;
+  float: right;
+}
+
+.my-class {
+  margin: 12px;
+  border: 2px solid white;
+  padding: 6px;
+  background-color: blue;
+  color: white;
+}
+
+body {
+  font-family: sans-serif;
+}
+p{
+  background-color: red;
+  color: white
+}
+.slow{
+  background-color:yellow;
+}
+.stop{
+  background-color:red
+}
+@media screen and (max-width: 768px) {
+  body{
+    background: #FF6347;
+    color: #FFF;
+  }
 }
